@@ -1,0 +1,247 @@
+
+.heads-sec{
+ position: sticky;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color:white;
+ 
+}
+#header-hline{
+    height: 20px;
+background-color: rgb(211, 21, 21);
+margin-top: -5px;
+}
+.header-containers{
+    display: flex;
+}
+
+#header-log{
+    padding-left: 10px;
+   }
+#header-search{
+    align-self: flex-end;
+    padding-left: 7%;    
+
+}
+#header-search-bar{
+    border: 3px solid red;
+    border-radius: 120px/100px;
+    height: 40px;  
+    width: 450px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.header-list-container{
+    align-items: end;
+    display: flex;
+    padding-left: 5%;
+    
+}
+.header-list-container a{
+    text-decoration: none;
+  color: rgb(146, 4, 4);
+}
+.header-list-icon{
+    padding-left: 25px;
+    
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(146, 4, 4);
+}
+.header-list-container a:hover{
+    color: blue;
+    transition: all 1s ease;
+}
+.header-footing{
+    background-color:  rgb(238, 5, 5);
+    height: 40px;
+}
+.header-footing p {
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.body1-image-container{
+    display: flex;
+}
+.body1-img1{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.body1-img2{
+     width: 50%;
+    padding-left:150px;
+    padding-top: 70px;
+}
+#bodys-hline{
+    height: 6px;
+background-color: rgb(205, 74, 74);
+margin-top: -5px;
+
+}
+.body2-container{
+    display: flex;
+    background-color: gainsboro;
+}
+.body2-container1-imag1{
+   width: 40%;
+   padding-left: 200px;
+
+}
+.body2-container2-imag2{
+      width: 60%;
+}
+.body2-container2-circle {
+    height:500px;
+    width: 500px;
+    border-radius: 100% 100% 100% 100% / 100% 40% 100% 100% ;
+    background-color:rgb(205, 74, 74);
+    margin-left: 90px;
+    box-shadow: 2px 3px 5px 6px rgb(172, 133, 133);
+}
+.body2-container2-circle h2{
+    text-align: center;
+    padding-top: 200px;
+    color: aliceblue;
+    
+}
+.body2-container2-circle h5{
+    text-align: center;
+    color: aliceblue;
+   }
+.body2-container2-circle button{
+     margin-left: 200px;
+     color:black;
+     padding: 10px 20px 10px 20px;
+   }
+.body3-container{
+    display: flex;
+}
+.body3-container-text{
+    color: rgb(146, 4, 4);
+    font-size: larger;
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.body3-container-text button{
+    padding: 10px 20px 10px 20px;
+   color:white;
+   background-color: rgb(146, 4, 4);
+   font-size: large;
+}
+.body3-container-img1{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.log-ssec1{
+    display: flex;
+}
+.log-ssec1 a{
+    color: rgb(146, 4, 4);
+    font-size: large;
+}
+.log-ssec1 h4{
+    padding-left: 650px;
+}
+
+
+#login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000080;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-folder{
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(146, 4, 4);
+    width: 70%;
+    position: absolute;
+    top: 75px;
+
+}
+
+
+.log-sec2{
+    display: flex;
+    margin-left: 10%;
+}
+.log-sec2 form{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: larger;
+}
+.log-sec2 form h5{
+    margin-top: -20px;
+}
+.log-sec2 form input{
+    margin-bottom: 20px;
+    border: 2px solid rgb(146, 4, 4);
+    height: 30px;
+    width: 120%;
+}
+.log-sec2 form button{
+    padding: 10px 30px 10px 30px;
+    color:black;
+    margin-left: 10px;
+    font-weight: 600;
+}
+#log-button1{
+    background-color: rgb(146, 4, 4);
+   color: aliceblue;
+   border-radius: 7px;
+}
+#log-button2{
+    color: rgb(146, 4, 4);
+}
+
+.login-f2{
+    border: 2px solid black;
+    color: rgb(146, 4, 4);
+    width: 70%;
+    margin-left: 13%;
+    text-align: center;
+}
+#product{
+    position: fixed;
+    border: 2px solid  black;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: black;
+    background-color:white;
+    top: 20%;
+    width: max-content;
+    right: 2%;
+    display: none;
+}
+
+#product img {
+    margin-top: 10px;
+}
+#pro-final{
+    display: flex;
+}
+#pro-final h4{
+   margin-left: 10px;
+}
+
+#pro-final h2{
+    margin-left: 80px;
+    padding: 10px 10px 5px 10px;
+    background-color: rgb(146, 4, 4);
+    color: antiquewhite;
+    font-size: small;
+    border-radius: 10px;
+ }
